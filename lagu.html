@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemutar Audio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+              background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .audio-container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="audio-container">
+        <h1>Pemutar Audio</h1>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mp3">
+            Browser Anda tidak mendukung tag audio.
+        </audio>
+        <p>Gunakan tombol kontrol untuk memutar audio.</p>
+    </div>
+</body>
+</html>
